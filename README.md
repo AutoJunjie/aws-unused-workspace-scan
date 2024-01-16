@@ -13,7 +13,7 @@ ws-66zxzp4vb,jhuang5,n/a。         #此实例从未被使用过，IdleTime无�
 
 整体架构 
 
-![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/40c01161-c189-40dc-a92f-9abee0c024f9) 
+![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/db621ca8-18eb-4958-a9c5-102df31e8c71)
 
 部署过程
 1.	创建S3 Bucket
