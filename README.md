@@ -12,7 +12,8 @@ ws-wffzz17c1,jhuang,14d5h2m      #此实例已空闲14d5h2m
 ws-66zxzp4vb,jhuang5,n/a。         #此实例从未被使用过，IdleTime无法计算
 
 整体架构 
- 
+
+![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/40c01161-c189-40dc-a92f-9abee0c024f9) 
 
 部署过程
 1.	创建S3 Bucket
@@ -116,11 +117,3 @@ https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/works
 
 •	Workspace API参考：
 https://docs.aws.amazon.com/zh_cn/workspaces/latest/api/welcome.html
-
-
-
-
-
-
-
-![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/40c01161-c189-40dc-a92f-9abee0c024f9)
