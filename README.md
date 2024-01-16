@@ -13,13 +13,18 @@ ws-66zxzp4vb,jhuang5,n/a。         #此实例从未被使用过，IdleTime无�
 
 整体架构 
 
-![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/db621ca8-18eb-4958-a9c5-102df31e8c71)
+![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/a341127d-7735-4b92-88f1-15f66a6de7f2)
 
 部署过程
 1.	创建S3 Bucket
 o	进入s3 console，Bucket name填入workspace-usage-report-demo-bucket保留其他的默认配置，点击Create
+
+![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/febd1831-96c5-4eb9-8f5c-6f7bc5fc82e7)
+
  
 o	创建后查看bucket的详情，记录下Amazon Resource Name (ARN)，此信息需要在第3步中配置Lambda role赋予IAM权限的时候使用
+
+![image](https://github.com/AutoJunjie/aws-unused-workspace-scan/assets/38706868/6eb84cce-29cc-4ae4-b18b-3e46095f4b23)
  
 2.	创建SNS Topic并用订阅
 o	进入SNS console，type选择Standard，Name填入workspace-usage-report-demo，点击Create Topic
